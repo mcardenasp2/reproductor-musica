@@ -1,0 +1,103 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reproductor de Música</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <style>
+   
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="top-bar">-
+      <i id="toggleButton" class="material-icons" onclick="toggleParagraph()" >expand_more</i>
+      <span>Músicas de Lucero</span>
+      <i class="material-icons">more_horiz</i> 
+    </div>
+
+    <p id="paragraph" style="display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dolores corporis quasi! Labore quasi optio reprehenderit iure tenetur, aspernatur reiciendis recusandae soluta possimus itaque atque deserunt debitis voluptatem, excepturi tempore!</p>
+
+
+    <div class="img-area">
+      
+      <img src="" alt="">
+    </div>
+    <div class="song-details">
+      <p class="name"></p>
+      <p class="artist"></p>
+    </div>
+    <div class="progress-area">
+      <div class="progress-bar">
+        <audio id="main-audio" src=""></audio>
+      </div>
+      <div class="song-timer">
+        <span class="current-time">0:00</span>
+        <span class="max-duration">0:00</span>
+      </div>
+    </div>
+    <div class="controls">
+      <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
+      <i id="prev" class="material-icons"  onclick="changeText(-1)" >skip_previous</i>
+      <div class="play-pause">
+        <i class="material-icons play">play_arrow</i>
+      </div>
+      <i id="next" class="material-icons" onclick="changeText(1)">skip_next</i>
+      <i id="more-music" class="material-icons">queue_music</i>
+    </div>
+    <div class="music-list">
+      <div class="header">
+        <div class="row">
+          <i class= "list material-icons">queue_music</i>
+          <span>Music list</span>
+        </div>
+        <i id="close" class="material-icons">close</i>
+      </div>
+      <ul>
+      </ul>
+    </div>
+  </div>
+
+  <script src="js/music-list.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
+
+
+<script>
+  function toggleParagraph() {
+    var paragraph = document.getElementById("paragraph");
+    var toggleButton = document.getElementById("toggleButton");
+
+    if (paragraph.style.display === "none") {
+      paragraph.style.display = "block"; // Cambia el estilo de display a "block" para mostrar el párrafo
+      toggleButton.textContent = "expand_less"; // Cambia el icono a "expand_less" cuando se muestra el párrafo
+    } else {
+      paragraph.style.display = "none"; // Cambia el estilo de display a "none" para ocultar el párrafo
+      toggleButton.textContent = "expand_more"; // Cambia el icono a "expand_more" cuando se oculta el párrafo
+    }
+  }
+
+
+    var texts = [
+      "¡Este es el primer párrafo!",
+      "¡Este es el segundo párrafo!",
+      "¡Este es el tercer párrafo!"
+    ];
+
+    var currentIndex = 0;
+
+    var currentIndex = 0;
+
+
+    function changeText(step) {
+      var paragraph = document.getElementById("paragraph");
+      currentIndex = (currentIndex + step + texts.length) % texts.length; // Calcula el nuevo índice
+      paragraph.textContent = texts[currentIndex]; // Actualiza el texto del párrafo con el nuevo texto del array
+    }
+
+</script>
+</html>
