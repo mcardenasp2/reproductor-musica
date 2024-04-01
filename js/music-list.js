@@ -1,39 +1,45 @@
 let allMusic = [
   {
-    name: "Harley Bird - Home",
-    artist: "Jordan Schor",
+    name: "Desde Cuando",
+    artist: "Alejandro Sanz",
     img: "music-1",
-    src: "music-1"
+    src: "music-1",
+    description:"Es una canción que habla del amor, la pérdida y el crecimiento personal. Es una canción que nos recuerda que las relaciones amorosas, aunque a veces terminen, siempre nos dejan algo valioso."
   },
   {
-    name: "Ikson Anywhere – Ikson",
-    artist: "Audio Library",
+    name: "ELLA",
+    artist: "HANSEL Y RAUL",
     img: "music-2",
-    src: "music-2"
+    src: "music-2",
+    description:"Ella es una canción que celebra la belleza y el misterio de la mujer. Es una canción que nos recuerda que el amor puede surgir en los momentos más inesperados"
   },
   {
-    name: "Beauz & Jvna - Crazy",
-    artist: "Beauz & Jvna",
+    name: "Bo Go Ship Da ",
+    artist: "Kim Bum Soo",
     img: "music-3",
-    src: "music-3"
+    src: "music-3",
+    description:"La letra describe la profunda tristeza que siente el cantante tras la pérdida de su amada. La compara con una estrella que se ha apagado y con una flor que se ha marchitado. Afirma que su vida no tiene sentido sin ella y que la única esperanza que le queda es reunirse con ella en el cielo."
   },
   {
-    name: "Hardwind - Want Me",
-    artist: "Mike Archangelo",
+    name: "Querer Querernos",
+    artist: "Canserbero",
     img: "music-4",
-    src: "music-4"
+    src: "music-4",
+    description:"Prueba 3"
   },
   {
-    name: "Jim - Sun Goes Down",
-    artist: "Jim Yosef x Roy",
+    name: "QUE VUELVAS",
+    artist: "Carin Leon x Grupo Frontera",
     img: "music-5",
-    src: "music-5"
+    src: "music-5",
+    description:"Prueba 4"
   },
   {
-    name: "Lost Sky - Vision NCS",
-    artist: "NCS Release",
+    name: "Las Llaves De Mi Alma",
+    artist: "Vicente Fernández",
     img: "music-6",
-    src: "music-6"
+    src: "music-6",
+    description:"Prueba 5"
   },
 
 ];

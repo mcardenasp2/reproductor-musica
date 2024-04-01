@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Reproductor de Música</title>
+  <title>Reproductor de Música para Lucero</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
@@ -13,7 +13,7 @@
 <body>
   <div class="wrapper">
     <div class="top-bar">-
-      <i id="toggleButton" class="material-icons" onclick="toggleParagraph()" >expand_more</i>
+      <i id="toggleButton" class="material-icons"  >expand_more</i>
       <span>Músicas de Lucero</span>
       <i class="material-icons">more_horiz</i> 
     </div>
@@ -40,11 +40,11 @@
     </div>
     <div class="controls">
       <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
-      <i id="prev" class="material-icons"  onclick="changeText(-1)" >skip_previous</i>
+      <i id="prev" class="material-icons" " >skip_previous</i>
       <div class="play-pause">
         <i class="material-icons play">play_arrow</i>
       </div>
-      <i id="next" class="material-icons" onclick="changeText(1)">skip_next</i>
+      <i id="next" class="material-icons" ">skip_next</i>
       <i id="more-music" class="material-icons">queue_music</i>
     </div>
     <div class="music-list">
@@ -73,31 +73,33 @@
     var toggleButton = document.getElementById("toggleButton");
 
     if (paragraph.style.display === "none") {
-      paragraph.style.display = "block"; // Cambia el estilo de display a "block" para mostrar el párrafo
-      toggleButton.textContent = "expand_less"; // Cambia el icono a "expand_less" cuando se muestra el párrafo
+      paragraph.style.display = "block"; 
+      toggleButton.textContent = "expand_less"; 
     } else {
-      paragraph.style.display = "none"; // Cambia el estilo de display a "none" para ocultar el párrafo
-      toggleButton.textContent = "expand_more"; // Cambia el icono a "expand_more" cuando se oculta el párrafo
+      paragraph.style.display = "none"; 
+      toggleButton.textContent = "expand_more"; 
     }
   }
 
 
-    var texts = [
-      "¡Este es el primer párrafo!",
-      "¡Este es el segundo párrafo!",
-      "¡Este es el tercer párrafo!"
-    ];
+  // console.log(allMusic, "avacf");
 
-    var currentIndex = 0;
+  //   var texts = [
+  //     "¡Este es el primer párrafo!",
+  //     "¡Este es el segundo párrafo!",
+  //     "¡Este es el tercer párrafo!"
+  //   ];
 
-    var currentIndex = 0;
+  //   var currentIndex = 0;
+
+  //   var currentIndex = 0;
 
 
-    function changeText(step) {
-      var paragraph = document.getElementById("paragraph");
-      currentIndex = (currentIndex + step + texts.length) % texts.length; // Calcula el nuevo índice
-      paragraph.textContent = texts[currentIndex]; // Actualiza el texto del párrafo con el nuevo texto del array
-    }
+  //   function changeText(step) {
+  //     var paragraph = document.getElementById("paragraph");
+  //     currentIndex = (currentIndex + step + texts.length) % texts.length; // Calcula el nuevo índice
+  //     paragraph.textContent = texts[currentIndex]; // Actualiza el texto del párrafo con el nuevo texto del array
+  //   }
 
 </script>
 </html>
