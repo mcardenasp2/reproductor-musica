@@ -46,7 +46,7 @@ let allMusic = [
     artist: "Reik",
     img: "music-7",
     src: "music-7",
-    description:"Si supieras lo mucho que me gustas, me pareces una chica muy lista con unos lindos ojitos, deseo que te vaya bien en la vida y que se cumplan todas tus metas."
+    description:"Eres la chica perfecta, eso no quiere decir que no cometes errores o que no te derrumbes porque de todo nos caemos a veces, cuando te digo perfecta es porque tú y tu sonrisa son perfectas para mi. Eres una chica muy lista que busca solucionar todos los problemas sola, además de eso tienes unos lindos ojitos. Siempre desearé que te vaya bien en la vida y que todas tus metas se cumplan."
   },
 
 ];
