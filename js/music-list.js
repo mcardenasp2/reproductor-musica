@@ -25,7 +25,7 @@ let allMusic = [
     artist: "Canserbero",
     img: "music-4",
     src: "music-4",
-    description:"Prueba 3"
+    description:""
   },
   {
     name: "QUE VUELVAS",
