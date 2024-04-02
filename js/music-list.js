@@ -46,7 +46,7 @@ let allMusic = [
     artist: "Reik",
     img: "music-7",
     src: "music-7",
-    description:"Si supieras lo mucho que me gustas"
+    description:"Si supieras lo mucho que me gustas, me pareces una chica muy lista con unos lindos ojitos, deseo que te vaya bien en la vida y que se cumplna todas tus metas."
   },
 
 ];
