@@ -4,21 +4,21 @@ let allMusic = [
     artist: "Alejandro Sanz",
     img: "music-1",
     src: "music-1",
-    description:"Es una canción que habla del amor, la pérdida y el crecimiento personal. Es una canción que nos recuerda que las relaciones amorosas, aunque a veces terminen, siempre nos dejan algo valioso."
+    description:""
   },
   {
     name: "ELLA",
     artist: "HANSEL Y RAUL",
     img: "music-2",
     src: "music-2",
-    description:"Ella es una canción que celebra la belleza y el misterio de la mujer. Es una canción que nos recuerda que el amor puede surgir en los momentos más inesperados"
+    description:""
   },
   {
     name: "Bo Go Ship Da ",
     artist: "Kim Bum Soo",
     img: "music-3",
     src: "music-3",
-    description:"La letra describe la profunda tristeza que siente el cantante tras la pérdida de su amada. La compara con una estrella que se ha apagado y con una flor que se ha marchitado. Afirma que su vida no tiene sentido sin ella y que la única esperanza que le queda es reunirse con ella en el cielo."
+    description:""
   },
   {
     name: "Querer Querernos",
@@ -32,14 +32,21 @@ let allMusic = [
     artist: "Carin Leon x Grupo Frontera",
     img: "music-5",
     src: "music-5",
-    description:"Prueba 4"
+    description:""
   },
   {
     name: "Las Llaves De Mi Alma",
     artist: "Vicente Fernández",
     img: "music-6",
     src: "music-6",
-    description:"Prueba 5"
+    description:""
+  },
+  {
+    name: "Que vida la mía",
+    artist: "Reik",
+    img: "music-7",
+    src: "music-7",
+    description:"Si supieras lo mucho que me gustas"
   },
 
 ];
